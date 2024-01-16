@@ -93,15 +93,9 @@ button {
 /* our popular tour section */
 .popular-tour-conatainer {
     display: flex;
-    /* justify-content: space-between;
-     */
+
     gap: 20px;
-    /* max-height: 500px; */
-
-
-
-
-}
+    }
 
 .popular-tour-contant {}
 
@@ -138,6 +132,7 @@ tour-contant-title {
     line-height: 26px;
     /* 162.5% */
     margin-right: 105px;
+    padding-left: 15px;
 
 }
 
@@ -234,7 +229,88 @@ tour-contant-title {
 
 }
 
+/* section  */
+.why{
+    margin: 100px 398px 48px 399px;
+    text-align: center;
+}
+.why-choose-us-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 
+}
+.why-choose-us-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.why-container{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.containt-1{
+    grid-column: 1/span 6;
+    grid-row: 1 /span 1;
+    border-radius: 16px;
+    text-align: left;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 32px 56px 32px 32px;
+}
+.containt-2{
+    grid-column: 7/span 6;
+    grid-row: 1 /span 1;
+    border-radius: 16px;
+    text-align: left;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 32px 56px 32px 32px;
+
+}
+.containt-3{
+    grid-column: 4/span 6;
+    grid-row: 2 /span 1;
+    border-radius: 16px;
+    text-align: left;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 32px 56px 32px 32px;
+
+}
+.containt-title{
+    margin-top: 32px;
+    margin-bottom: 20px;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: left;
+}
+.containt-description{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-align: left;
+    
+}
 /* footer section */
 .footer {
     text-align: center;
@@ -303,21 +379,49 @@ tour-contant-title {
         /* margin: 5px 15px 32px 15px; */
     }
     /* tour responsive */
-    .popular-tour-conatainer{
+    .popular-tour-conatainer {
         flex-direction: column;
-
+        }
+    
+    .popular-tour-contant {}
+    
+    tour-contant-title {
+        font-size: 20px;
+        margin-right: 157px;
+    
     }
-    .tour-contant-title {
-
-    }
-    .tour-contant-description{
-
-    }
-    .contant-list {
-
-    }
-    .popular-tour-image {
+    
+    .tour-contant-description {
+        font-size: 14px;
         
+        margin-top: 16px;
+        margin-bottom: 24px;
+        margin-right: 0px;
+    
+    }
+    
+    .contant-list {
+        
+        font-size: 14px;
+        margin-right: 0px;
+        margin-left: 0px;
+    
+    }
+    
+    .popular-tour-image {
+        width: 100%;
+    
+    }
+    
+    .popular-tour-image>img {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+    
+    
     }
 /* image text responsive */
 .images-text{
@@ -402,6 +506,55 @@ tour-contant-title {
     
 
 }
+/* why - section */
+.why{
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 24px;
+    text-align: center;
+}
+.why-choose-us-title{
+    font-size: 20px;
+
+}
+.why-choose-us-description{
+    font-size: 14px;
+
+}
+.why-container{
+    gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+.containt-1{
+    grid-column: 1/span 1;
+    grid-row: 1 /span 1;
+padding: 32px;
+}
+.containt-2{
+    grid-column: 1/span 1;
+    grid-row: 2 /span 1;
+padding: 32px;
+
+}
+.containt-3{
+    grid-column: 1/span 1;
+    grid-row: 3 /span 1;
+padding: 32px
+
+}
+.containt-title{
+    margin-top: 32px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.containt-description{
+    font-size: 14px;
+    
+}
+
 
 
 
