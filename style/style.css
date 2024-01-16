@@ -66,6 +66,7 @@ input {
     background: #FFF;
     padding: 16px;
     color: rgba(19, 19, 24, 0.50);
+    border: none;
 }
 
 select {
@@ -73,6 +74,7 @@ select {
     background: #FFF;
     padding: 16px 113px 16px 15px;
     color: rgba(19, 19, 24, 0.50);
+    border: none;
 
 }
 
@@ -87,6 +89,7 @@ button {
     font-weight: 700;
     line-height: normal;
     padding: 16px 64px 16px 67px;
+    border: none;
 }
 
 
@@ -323,6 +326,45 @@ text-align: left;
     justify-content: center;
     gap: 16px;
     margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title{
+    color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.travel{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.footer-description{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.socile-link{
+    display: flex ;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.socile-link >a{
+    
 }
 
 
@@ -350,7 +392,7 @@ text-align: left;
 @media screen and (max-width: 600px) {
 
     header {
-        margin: 18px;
+        margin: 20px;
     }
     main{
         margin: 20px;
@@ -358,7 +400,7 @@ text-align: left;
 
     .banner {
         height: 100%;
-        width: 100%;
+        width: 98%;
         padding: 32px 16px;
 
     }
@@ -376,7 +418,7 @@ text-align: left;
     .input-field {
         flex-direction: column;
         margin-top: 32px;
-        /* margin: 5px 15px 32px 15px; */
+       
     }
     /* tour responsive */
     .popular-tour-conatainer {
@@ -564,24 +606,39 @@ padding: 32px
         text-align: center;
     }
 
+
+    
     .footer-title-image {
-       
-
+        
+        align-items: center;
+        justify-content: center;
     }
-    .footer-title-image > h1{
-        color: #131318;
-        font-family: Mulish;
+    .footer-title{
         font-size: 21.543px;
-        font-weight: 800;
-        
+    
     }
-
-    .footer-description {
-        
+    .travel{
+        font-size: 21.543px;
+    
     }
-
-    .footer img {
-        width: 50%;
+    .footer-description{
+        font-size: 14px;
+    }
+    .socile-link{
+        gap:30px
+    }
+    
+    
+    .hr1 {
+       
+        margin-bottom: 16px;
+       
+    }
+    
+    .hr2 {
+    
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 
 
